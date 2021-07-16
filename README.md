@@ -1,2 +1,2 @@
-# travel-escape193.github.io
+# travel-escape.github.io
 proyecto grupal - pagina web
