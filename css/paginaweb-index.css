@@ -1,0 +1,371 @@
+* {
+  margin: 0;
+  padding: 0;
+  
+}
+
+.contenedor {
+  max-width: 100%;
+  margin: auto;
+}
+
+body {
+  font-size: 16px;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+  "Lucida Sans Unicode";
+}
+
+.fija {
+  position: fixed;
+  top: 0;
+  left: 400px;
+
+}
+
+.menu {
+  height: auto;
+}
+
+@font-face {
+  font-family: "Pacifico-Regular";
+  src: url(/fonts/Pacifico-Regular.ttf);
+}
+
+h1 {
+  font-family: "Pacifico-Regular";
+  color: white;
+  text-align: left;
+  padding-top: 330px;
+  padding-left: 250px;
+}
+
+.cuerpo {
+  background-color:  white;
+}
+
+
+
+.buttonpie {
+  background: darkgray;
+  margin-left: -5px;
+}
+
+.buttontours {
+  background: rgb(55, 181, 65);
+  color: white;
+  margin-left: 200px;
+  margin-top: 0px;
+  border-radius: 20px;
+  border-left: 10px;
+}
+
+/* aplicamos estilo para el menu */
+header nav {
+  margin: 40px 0 0 -135px;
+  text-align: center;
+  border-radius: 10px;
+  height: 40px;
+  width: 1160px;
+  display: inline-block;
+  padding-bottom: 25px;
+  padding-top: -10px;
+  border: solid 1px;
+  background-color: #3FA392;
+  border-color: white;
+}
+
+header nav a {
+  margin: 0 10px;
+  text-decoration: none;
+  color: white;
+  padding-left: 10px;
+  margin-left: 50px;
+  color: white;
+}
+
+.contenedor .fija .titulo {
+  border: solid;
+  border-radius: 50%;
+  display: inline-block;
+  margin-top: -10px;
+}
+
+.img50 {
+  background-image: url(/img/50.jpg);
+  background-size: 90%;
+  background-repeat: no-repeat;
+  background-position: center;
+  height: 550px;
+}
+
+h2 {
+  color: white;
+  padding-left: 250px;
+  padding-top: 10px;
+}
+
+/* configuracion de posicion y servicios */
+.cuerpo .p {
+  padding-left: 130px;
+  padding-top: 100px;
+}
+
+.cuerpo .p h3 {
+  font-size: 20px;
+  padding-left: 0px;
+  position: static;
+}
+
+.cuerpo h1 {
+  font-size: 30px;
+}
+
+.ofre  {
+  margin-left: -120px;
+}
+
+header nav .titulo{
+  padding-top: 15px;
+  padding-bottom: 15px;
+  padding-left: 15px;
+  padding-right: 15px;
+  margin-right: 10px;
+  margin-top: -15px;
+  right: 830px;
+}
+/* fin de configuracion de posicon de letras y parrafos */
+
+
+
+/* tamaño de letras */
+.cuerpo .p p{
+  font-size: 18px;
+  left: 0px;
+}
+/* fin de control de tamaño de letras */
+
+
+.cuerpo .p{
+  background-repeat: no-repeat;
+  margin-right: 0px;
+  margin-top: 0px;
+  margin-left: 0px;
+  margin-bottom: 0px;
+}
+
+
+.buscar{
+  width: 150px;
+  height: 18px;
+  padding: 0 10px;
+  font-size: 15px;
+  color: black;
+  outline: none;
+  border: 1px solid silver;
+  border-radius: 20px;
+}
+
+.contenedor .camp{
+  margin-right: -10px;
+}
+
+.contenedor .user{
+  margin-right: -10px
+}
+
+.contenedor .fija .ofer{
+  margin-left: 40px;
+}
+
+.cuerpo .lago{
+  background-image: url(/img/tour-lago-titicaca.jpg);
+  background-repeat: no-repeat;
+  background-size: 100%;
+  max-width: 1360px;
+  width: 1360px;
+  height: 800px;
+  margin-left: 150px;
+  padding-bottom: 0px;
+  margin-top: 100px;
+}
+
+
+section .turismo1{
+  margin: 1px;
+  padding: 1px;
+  margin-left: 100px;
+  color: #666666;
+  float: left;
+  border: silver;
+}
+section .turismo2{
+  padding: 1px;
+  color: #666666;
+  float: left;
+  margin-left: 80px;
+
+}
+section .turismo3{
+  padding: 0px;
+  color: #666666;
+  margin-left:1100px;
+  top: -800px;
+}
+section .h3{
+  text-align: center;
+  padding-bottom: 30px;
+
+}
+section h4{
+  text-align: left;
+  padding-bottom: 20px;
+}
+
+footer .pie{
+  margin-top: 50px;
+  background-color: #EFEFEF;
+  text-align: center;
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+
+.cuerpo section .ofre .serv{
+  padding-top: 200px;
+  padding-bottom: 20px;
+}
+
+.cuerpo section .ofre{
+  padding-left: 250px;
+  padding-bottom: 100px;
+}
+
+.cuerpo .balles img{
+  padding-left: 0px;
+  display: flex;
+  padding-bottom:0px;
+  border: solid;
+  margin-left:700px;
+  margin-top: -300px;
+  border-color: white;
+  border-radius: 20px;
+}
+
+.cuerpo .huaraz img{
+  padding-left: 0px;
+  display: flex;
+  padding-bottom:0px;
+  border: solid;
+  margin-left:700px;
+  margin-top: -250px;
+  border-color: white;
+  border-radius: 20px;
+}
+
+.thuaraz{
+  margin-top: -60px;
+  margin-left: 800px;
+}
+
+.thuaraz P{
+ font-size: 30px;
+ font-family: comic;
+ color: rgb(0, 255, 200);
+ text-shadow: 0,0,0,0.6 ;
+}
+
+
+.cuerpo .machu img{
+  padding-left: 0px;
+  display: flex;
+  padding-left: 0px;
+  border: solid;
+  margin-left:1050px;
+  margin-top: -282px;
+  border-color: white;
+  border-radius: 20px;
+}
+
+.cuerpo .hosp img{
+  padding-left: 0px;
+  display: flex;
+  padding-bottom:0px;
+  border: solid;
+  margin-left:1050px;
+  margin-top: -310px;
+  border-color: white;
+  border-radius: 20px;
+}
+
+.cuerpo section .p .vist{
+  padding-bottom: 20px;
+}
+
+.cuerpo .lago p{
+  color: white;
+  font-style: bolder;
+  padding-left: 150px;
+  font-size: 30px;
+}
+
+.cuerpo .lago .des{
+  padding-top: 390px;
+}
+
+.contenedor .fija a:hover{
+  border-bottom: 5px solid gold;
+}
+
+/* cuadros con imagenes  */
+
+div.huaraz p{
+  background-color: wheat;
+  margin-top: 100px;
+  margin-bottom: 10px;
+}
+
+/* estilos de los iconos del footer */
+.fa-facebook-square{
+  color: rgb(38, 21, 136);
+  font-size: 60px;
+  width: 90px;
+  }
+  .fa-twitter-square{
+  color: rgb(41, 151, 194);
+  font-size: 60px;
+  width: 90px;
+  }
+  .fa-instagram-square{
+  color: rgb(212, 29, 182);
+  font-size: 60px;
+  width: 90px;
+  }
+  .fa-rss{
+  font-size: 60px;
+  color:#673FB4;
+  width: 90px;
+  }
+
+  footer .install{
+    display: flex;
+    margin-left: 806px;
+    position: absolute;
+    top: 2888px;
+  }
+  
+
+/* fin de los iconos del footer */
+
+
+
+/* boton del footer */
+.buttonpie {
+  background: darkgray;
+  margin-left: -5px;
+  padding-left: 50px;
+  padding-right: 50px;
+  padding-top: -99px;
+  padding-bottom: 10px;
+  color: white;
+  text-decoration: none;
+} 
+

@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Travel Escape - Suscripción</title>
+    <script src="https://kit.fontawesome.com/c1b9a8cac0.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" type="text/css" href="css/pag.suscripcion.css">
+</head>
+<body>
+    <!-- incia el header -->
+<header>
+    <div class="contenedor">
+        <div class="fija">
+            <nav>
+                <a href="paginaofertas.html" class="ofertas">Ofertas</a>
+                <a href="destinos.html" class="des">Destinos</a>
+                <a href="acercadeperu.html" class="tour">A cerca de peru</a>
+                <a href="paginaweb-index.html" class="titulo" >Travel <br> Escape</a>
+                <a href="blogdeviajes.html" class="blog">Blog viajero</a>
+                <input class="buscar" type="text" placeholder="Buscar" required>
+                    <a href="#" class="camp"><i class="fas fa-bell" style="color: #FFC107;"></i></a>
+                    <a href="#user" class="user"><i class="fas fa-user"></i></a>
+            </nav>
+        </div>
+    </div>
+        <div class="contenedortexto">
+            <div class="texto">
+                <h1 class="suscripcion">Suscríbete</h1>
+                <h3 class="textosub">Recibe las últimas novedades sobre destinos ofertas y promociones <br>
+                que el Perú te ofrece.</h3>
+            </div>
+        </div>
+    </div>
+    
+</header>
+<!-- fin de header -->
+<section class="ingresadatos">
+    <div class="ingresa">
+        <h3 class="ingresa">Ingresa tus datos</h3>
+    </div>
+</section>
+
+<!-- inicio del formulario -->
+
+<section class="body">
+<div class="contenedorform">
+    <form action="" class="formulario" id="frmRegistro" name="frmRegistro">
+        <div class="contenedorinput">
+            <input type="text" id="txtNom" name="txtNom" placeholder="Nombres">
+            <input type="text" id="txtApe" name="txtApe" placeholder="Apellidos">
+            <input type="mail" id="txtCor" name="txtCor" placeholder="Correo Electrónico">
+            <input type="text" id="txtCel" name="txtCel" placeholder="Celular">
+            
+                <div class="botondeopciones">
+                <input type="radio" name="sexo" id="rbMas">
+                <label for="rbMas">Masculino</label>
+                <input type="radio" name="sexo" id="rbFem">
+                <label for="rbFem">Femenino</label>
+                <input type="radio" name="sexo" id="rbOtr">
+                <label for="rbOtr">Otros</label>
+            </div>
+            <div class="casilladeverificacion">
+                <input type="checkbox" name="chkEst" id="chkEst">
+                <label for="chkEst">He leido y acepto los terminos y condiciones</label>
+            </div>
+            <ul class="error" name="error" id="error"></ul>
+        </div>
+            <input type="button" value="Registrar" name="btnRegistrar" id="btnRegistrar" class="boton" onclick="Validar()">
+
+        </div>
+    </form>
+</div>
+<script src="js/formulario.js" type="text/javascript"></script>
+</section>
+<footer>
+    <div class="install">
+        <img src="/img/instagram.png" alt="instagram" width="60">
+        </div>
+        
+    <div aling="Center" class="pie">
+        <div class="pie1">
+            <div class="iconos">
+                <i class="fab fa-facebook-square"></i>
+                <i class="fab fa-twitter-square"></i>
+                <i class="fab fa-instagram-square"></i>
+                <i class="fas fa-phone-rotary"></i>
+                <i class="fas fa-rss"></i>
+                <p>2021 - Todos los derechos reservados</p>
+            </div>
+
+        </div>
+    </div>
+</footer>
+
+</div>
+</body>
+</html>

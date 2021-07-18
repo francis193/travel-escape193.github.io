@@ -1,0 +1,263 @@
+/* Aplicamos estilos universales */
+* {
+    margin: 0;
+    padding: 2px;
+}
+  /* Aplicamos estilos al body */
+body {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 18px;
+}
+  /* ---------------------------------------cabecera----------------------------- */
+  /* aplicamos estilos al contenedor */
+.contenedor {
+    width: 100%;
+    max-width: 100%;
+    margin: auto;
+}
+
+/* Aplicamos estilos al header */
+header {
+    background: url("/img/fondo\ de\ pag\ suscripción.jpg");
+    background-position: center;
+    max-height: 600px;
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+/* aplicamos estilo para el menu */
+header nav {
+    margin: 40px 0 0 -135px;
+    text-align: center;
+    border-radius: 10px;
+    height: 40px;
+    width: 1160px;
+    display: inline-block;
+    padding-bottom: 25px;
+    padding-top: -10px;
+    border: solid 1px;
+    background-color: #3FA392;
+    border-color: white;
+    margin-left: 250px;
+}
+
+header nav a {
+    margin:0 0px;
+    text-decoration: none;
+    color: white;
+    padding-left: 10px;
+    margin-left: 50px;
+    color: white;
+}
+
+
+
+.contenedor .fija .titulo {
+    border: solid;
+    border-radius: 50%;
+    display: inline-block;
+}
+
+header nav .titulo{
+    padding-top: 20px;
+    padding-bottom: 15px;
+    padding-left: 15px;
+    padding-right: 15px;
+    margin-right: 10px;
+    margin-top: -15px;
+    right: 830px;
+}
+
+.contenedor .fija a:hover{
+    border-bottom: 5px solid gold;
+}
+
+
+
+
+/* fin de la barra de bisqueda */
+
+
+
+.ofertas{
+    margin-left: 50px;
+}
+
+/* fin de la barra de busqueda */
+
+
+.trav{
+    border-bottom: 5px solid #fff;
+}
+
+/* aplicamos el estilo al contenedor texto */
+header .contenedortexto {
+    align-content: center;
+    text-align: center;
+}
+
+header .contenedortexto .texto {
+    padding: 80px 60px;
+}
+
+header .contenedortexto .texto h1,
+header .contenedortexto .texto h3 {
+    color: white;
+    font-weight: bolder;
+    margin: 0px;
+    align-content: center ;
+}
+
+header .contenedortexto .texto .suscripcion {
+    margin-bottom: 10px;
+    font-size: 50px;
+    align-content: center ;
+}
+header .contenedortexto .texto .textosub {
+    margin-bottom: 10px;
+    font-size: 20px;
+    
+}
+
+  /* -----------------------------------fin del contenedor------------------------ */
+
+/* -----------------inicio del formualario-------------------------- */
+.ingresadatos .ingresa{
+    padding-left: 350px;
+    padding-top: 25px;
+    color: #434343;
+    font-size: 30px;
+}
+
+.contenedorform{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box; 
+}
+.body{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 18px;
+    background-color: #fff;
+}
+.contenedorform{
+    width: 400px;
+    margin: 40px auto;
+    background: #fff;
+}
+.formulario .contenedorinput{
+    padding: 20px;
+    border-radius: 6px 6px 0 0;
+    background: #fff;
+}
+.formulario input[type="text"], .formulario input[type="mail"]{
+    display: block;
+    width: 100%;
+    margin-bottom: 20px;
+    padding: 15px 20px;
+    border: none;
+    border-bottom: 2px solid #999999;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 18px;
+}
+.formulario input[type="text"]:focus, .formulario input[type="mail"]:focus{
+    border-bottom: 2px solid #3FA392;
+}
+.botondeopciones{
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+    margin-bottom: 20px;
+}
+.formulario .botondeopciones{
+    color: #424242;
+    padding: 10px 10px;
+    text-align: center;
+    font-family: 'Slabo 13px', serif;
+    font-size: 18px;
+}
+.casilladeverificacion{
+    text-align: center;
+    color: #424242;
+}
+.casilladeverificacion label{
+    margin-left: 10px;
+}
+
+.formulario .error{
+    display: none;
+    margin-top: 15px;
+    border-radius: 3px;
+    background: #b90808c2;
+    color:#fff;
+    padding: 15px 10px;
+    padding-left: 40px;
+}
+.boton{
+    width: 100%;
+    text-align: center;
+    background: #35B736;
+    color: #fff;
+    border:none;
+    display: block;
+    padding: 15px 10px;
+    cursor: pointer;
+    border-radius: 0 0 6px 6px;
+    font-family: 'Slabo 13px', serif;
+    font-size: 18px;
+}
+.formulario .boton:hover{
+    background-color: #3FA392;
+}
+
+.buttonpie {
+    background: darkgray;
+    margin-left: -5px;
+    padding-left: 50px;
+    padding-right: 50px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    color: white;
+}
+footer .pie{
+    margin-top: 50px;
+    background-color: #EFEFEF;
+    text-align: center;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    }
+
+/* personalizacion de iconos */
+    /* estilos de los iconos del footer */
+.fa-facebook-square{
+    color: rgb(38, 21, 136);
+    font-size: 60px;
+    width: 90px;
+}
+.fa-twitter-square{
+    color: rgb(41, 151, 194);
+    font-size: 60px;
+    width: 90px;
+    
+}
+.fa-instagram-square{
+    color: rgb(212, 29, 182);
+    font-size: 60px;
+    width: 90px;
+    
+}
+.fa-rss{
+    font-size: 60px;
+    color:#673FB4;
+    width: 90px;
+}
+
+footer .install{
+    display: flex;
+    margin-left: 798px;
+    position: absolute;
+    top: 1192px;
+}
+  /* fin de los estilos del footer */
+/* personalizacion de iconos */
+

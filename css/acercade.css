@@ -1,0 +1,147 @@
+*{
+    font-family: Arial, Helvetica, sans-serif;
+}
+  /* Navegador */
+
+header nav {
+    margin: 40px 0 0 -135px;
+    text-align: center;
+    border-radius: 20px;
+    height: 40px;
+    width: 1160px;
+    display: inline-block;
+    padding-bottom: 25px;
+    padding-top: -10px;
+    border: solid 1px;
+    background-color: #3FA392;
+    border-color: white;
+}
+
+    header nav a, input {
+    margin: 0 -30px;
+    text-decoration: none;
+    color: white;
+    padding-left: 10px;
+    margin-left: 70px;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    }
+
+    .contenedor .fija .titulo {
+    border: solid 1px;
+    border-radius: 50%;
+    display: inline-block;
+    margin-top: -5px;
+    }
+    header nav .titulo{
+    padding-top: 20px;
+    padding-bottom: 15px;
+    padding-left: 15px;
+    padding-right: 15px;
+    margin-right: 10px;
+    margin-top: -15px;
+    right: 830px;
+    }
+    .contenedor .fija a:hover{
+    border-bottom: 5px solid gold;
+    }
+    .fija {
+    position: fixed;
+    top: 0;
+    left: 400px;
+    }
+  /* Fin del navegador */
+.fondo{
+    background-image: url("/img/fondo-acerca\ de\ peru.jpg");
+    background-repeat: no-repeat;
+    background-size: 90%;
+    width: 1600px;
+    height: 600px;
+    margin-left: 70px;
+    display: flex;
+}
+
+.fondo section{
+    margin-left: 250px;
+    margin-top: 300px;
+    color: white;
+}
+h1{
+    font-size: 50px;
+    font-weight: 800;
+    margin-top: 0px;
+
+}
+/* -----------------------------------------------------------texto----------------------------------------------------------- */
+.texto{
+width: 55%;
+height: 400px;
+margin: auto;
+text-align: justify;
+padding: 45px;
+font-size: 18px;
+background-color: rgb(255, 253, 253);
+}
+.parrafo2{
+margin-top: 58px;
+}
+.parrafo3{
+margin-top: 58px;
+}
+.imgacercade{
+    
+        color: white;
+        font-style: bolder;
+        padding-left: 400px;
+        margin-left: -92px;
+}
+footer .pie{
+    margin-top: 100px;
+    background-color: #EFEFEF;
+    text-align: center;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    }
+
+/* boton del footer */
+    .buttonpie {
+        background: darkgray;
+        margin-left: -5px;
+        padding-left: 50px;
+        padding-right: 50px;
+        padding-top: -99px;
+        padding-bottom: 10px;
+        color: white;
+    } 
+
+
+/* personalizacion de iconos */
+.fa-facebook-square{
+color: rgb(38, 21, 136);
+font-size: 60px;
+width: 90px;
+}
+.fa-twitter-square{
+color: rgb(41, 151, 194);
+font-size: 60px;
+width: 90px;
+}
+.fa-instagram-square{
+color: rgb(212, 29, 182);
+font-size: 60px;
+width: 90px;
+}
+.fa-rss{
+font-size: 60px;
+color:#673FB4;
+width: 90px;
+}
+
+footer .install{
+display: flex;
+margin-left: 800px;
+position: absolute;
+top: 1890px;
+}
+
+/* personalizacion de iconos */

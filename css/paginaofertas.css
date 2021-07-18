@@ -1,0 +1,399 @@
+*{
+  font-family: Arial, Helvetica, sans-serif;
+}
+/* Navegador */
+
+header nav {
+  margin: 40px 0 0 -135px;
+  text-align: center;
+  border-radius: 20px;
+  height: 40px;
+  width: 1160px;
+  display: inline-block;
+  padding-bottom: 25px;
+  padding-top: -10px;
+  border: solid 1px;
+  background-color: #3FA392;
+  border-color: white;
+}
+
+  header nav a, input {
+    margin: 0 -30px;
+    text-decoration: none;
+    color: white;
+    padding-left: 10px;
+    margin-left: 70px;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+  }
+
+  .contenedor .fija .titulo {
+    border: solid 1px;
+    border-radius: 50%;
+    display: inline-block;
+    margin-top: -5px;
+  }
+  header nav .titulo{
+    padding-top: 20px;
+    padding-bottom: 15px;
+    padding-left: 15px;
+    padding-right: 15px;
+    margin-right: 10px;
+    margin-top: -15px;
+    right: 830px;
+  }
+  .contenedor .fija a:hover{
+    border-bottom: 5px solid gold;
+  }
+  .fija {
+    position: fixed;
+    top: 0;
+    left: 400px;
+  }
+/* Fin del navegador */
+
+
+
+
+/* Imagen de ica */
+.ica{
+    background-image: url("/img/Ica.jpg");
+    background-repeat: no-repeat;
+    background-size: 74%;
+    width: 1700px;
+    height: 600px;
+    background-position: center;
+    margin-left: -50px;
+    display: flex;
+}
+.ica section {
+  margin-left: 600px;
+  margin-top: 200px;
+}
+.ica section h1{
+  color: white;
+  font-size: 40px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+.ica section label{
+  color: white;
+  font-size: 24px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+.ica section .fech{
+  margin-left: 200px;
+  margin-top: -55px
+}
+.ica section .bu{
+  margin-left: 400px;
+  margin-top: -50px;
+}
+/* Fin de Imagen ica*/
+/* Bocina */
+
+.bocina section{
+    border: none;
+    background-color: #FFC107;
+    padding-left: 400px;
+    padding-right: 600px;
+    margin-left: 170px;
+    margin-right: 133px;
+    padding-top: 10px;
+    padding-bottom:10px;
+  background-image: url(/img/bocina.png);
+  background-repeat: no-repeat;
+  background-size: 80px;
+  background-position: 350px;
+}
+
+.bocina section p{
+  margin-left: 20px;
+  font-size: 24px;
+  margin-right: -200px;
+  margin-top: 10px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.bocina section .letras{
+  border: solid;
+  border-right: 0;
+  border-top: 0;
+  border-bottom: 0;
+  margin-left: 100px;
+}
+
+/* Fin bocina */
+
+/* INICIO DEL ARTICLE */
+
+article div .to{
+  border: none;
+  border-radius: 40px;
+  margin-right: 1100px;
+  margin-left: 350px;
+  text-align: center;
+  font-family: Arial, Helvetica, sans-serif;
+  background-color: #3FA392;
+  color: white;
+  padding-top: 10px;
+  margin-top: 20px;
+  padding-bottom: 10px;
+  font-size: 24px;
+}
+
+article div .pv{
+  border: solid 1px;
+  border-radius: 40px;
+  margin-right: 800px;
+  margin-left: 600px;
+  text-align: center;
+  font-family: Arial, Helvetica, sans-serif;
+  color: #C6C6C6;
+  padding-top: 10px;
+  margin-top: -45px;
+  padding-bottom: 10px;
+  font-size: 24px;
+  display: flex;
+}
+article div .fd{
+  border: solid 1px;
+  border-radius: 40px;
+  margin-right: 400px;
+  margin-left: 900px;
+  text-align: center;
+  font-family: Arial, Helvetica, sans-serif;
+  color: #C6C6C6;
+  padding-top: 10px;
+  margin-top: -50px;
+  padding-bottom: 10px;
+  font-size: 24px;
+  display: flex;
+}
+article div .alo{
+  border: solid 1px;
+  border-radius: 40px;
+  margin-right: 300px;
+  margin-left: 1100px;
+  text-align: center;
+  font-family: Arial, Helvetica, sans-serif;
+  color: #C6C6C6;
+  padding-top: 10px;
+  margin-top: -55px;
+  padding-bottom: 10px;
+  font-size: 24px;
+  display: flex;
+}
+/* FIN DEL ARTICLE */
+/* Inicio de las imagenes del article */
+/* imagen Hospedaje */
+article .hospedaje .f1{
+  color: white;
+  margin-top: 270px;
+  margin-left: 220px;
+  font-size: 24px;
+}
+article .hospedaje .f2{
+  color: white;
+  margin-left: 220px;
+  margin-top: -10px;
+  font-size: 24px;
+}
+article .hospedaje h3{
+  font-size: 40px;
+  background: yellow;
+  margin-right: 1300px;
+  text-align: center;
+  margin-left: 210px;
+  border-radius: 10px;
+  margin-top: -400px;
+  color: white;
+}
+/* Fin de imagen Hospedaje */
+/* Imagen 2 */
+article .img2 h3{
+  margin-left: 530px;
+  font-size: 40px;
+  margin-top: -400px;
+  margin-bottom: 220px;
+  color: white;
+}
+
+article .img2 p{
+  margin-left: 540px;
+  font-size: 24px;
+  color: white;
+}
+/* Fin de Imagen 2 */
+
+
+
+/* Imagen 3 */
+article .img3 h3{
+  margin-left: 855px;
+  font-size: 40px;
+  margin-top: -400px;
+  margin-bottom: 220px;
+  color: white;
+}
+
+article .img3 p{
+  margin-left: 870px;
+  font-size: 24px;
+  color: white;
+}
+/* Fin de Imagen 3 */
+article .amazonas h3{
+  margin-left: 1180px;
+  font-size: 40px;
+  margin-top: -400px;
+  margin-bottom: 220px;
+  color: white;
+}
+
+article .amazonas p{
+  margin-left: 1190px;
+  font-size: 24px;
+  color: white;
+}
+/* fin de las imagenes del article */
+/* Imagen 4 */
+article .img4 h3{
+  margin-left: 210px;
+  font-size: 40px;
+  margin-top: -400px;
+  margin-bottom: 220px;
+  color: white;
+}
+
+article .img4 p{
+  margin-left: 230px;
+  font-size: 24px;
+  color: white;
+}
+/* Fin de la imagen 4 */
+/* Imagen machu pichu */
+article .machupichu h3{
+  margin-left: 530px;
+  font-size: 40px;
+  margin-top: -400px;
+  margin-bottom: 220px;
+  color: white;
+}
+
+article .machupichu p{
+  margin-left: 550px;
+  font-size: 24px;
+  color: white;
+}
+/* Fin de imagen machu pichu */
+/* Islas ballestas */
+article .ballestas h3{
+  margin-left: 860px;
+  font-size: 40px;
+  margin-top: -400px;
+  margin-bottom: 220px;
+  color: white;
+}
+
+article .ballestas p{
+  margin-left: 880px;
+  font-size: 24px;
+  color: white;
+}
+/* Fin de islas ballestas */
+/* Cajamarca */
+article .cajamarca h3{
+  margin-left: 1180px;
+  font-size: 40px;
+  margin-top: -400px;
+  margin-bottom: 220px;
+  color: white;
+}
+
+article .cajamarca p{
+  margin-left: 1190px;
+  font-size: 24px;
+  color: white;
+}
+/* Fin de cajamarca */
+/* vermas */
+article .vermas input{
+  padding-left: 80px;
+  padding-right: 80px;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  border-radius: 20px;
+  margin-left: 630px;
+  margin-top: 100px;
+  background-color: #823192;
+  color: white;
+  font-size: 40px;
+}
+/* Fin de Vermas */
+/* Footer */
+.buttonpie {
+    background: darkgray;
+    margin-left: -5px;
+    padding-left: 50px;
+    padding-right: 50px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    color: white;
+  }
+  footer .pie{
+    margin-top: 50px;
+    background-color: #EFEFEF;
+    text-align: center;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    }
+
+    /* opciones de la barra ica */
+
+    .opciones .to{
+      margin-left: 280px;
+    }
+
+    .opciones .pv{
+      margin-left: 570px;
+    }
+
+    .opciones .fd{
+      margin-left: 950px;
+    }
+
+    .opciones .alo{
+      margin-left: 1250px;
+    }
+
+  /* personalizacion de iconos */
+  .fa-facebook-square{
+    color: rgb(38, 21, 136);
+    font-size: 60px;
+    width: 90px;
+  }
+  .fa-twitter-square{
+    color: rgb(41, 151, 194);
+    font-size: 60px;
+    width: 90px;
+    
+  }
+  .fa-instagram-square{
+    color: rgb(212, 29, 182);
+    font-size: 60px;
+    width: 90px;
+    
+  }
+  .fa-rss{
+    font-size: 60px;
+    color:#673FB4;
+    width: 90px;
+  }
+  
+  footer .install{
+    display: flex;
+    margin-left: 800px;
+    position: absolute;
+    top: 2110px;
+  }
+/* personalizacion de iconos */

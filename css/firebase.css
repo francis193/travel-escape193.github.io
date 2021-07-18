@@ -1,0 +1,55 @@
+.regist{
+    background-image: url(/img/registropasajeros.jpeg);
+    background-repeat: no-repeat;
+    width: 2000px;
+    height: 1000px;
+}
+
+/* estilos de los iconos del footer */
+.fa-facebook-square{
+    color: rgb(38, 21, 136);
+    font-size: 60px;
+    width: 90px;
+    }
+    .fa-twitter-square{
+    color: rgb(41, 151, 194);
+    font-size: 60px;
+    width: 90px;
+    }
+    .fa-instagram-square{
+    color: rgb(212, 29, 182);
+    font-size: 60px;
+    width: 90px;
+    }
+    .fa-rss{
+    font-size: 60px;
+    color:#673FB4;
+    width: 90px;
+    }
+    
+    
+  /* fin de los iconos del footer */
+
+    footer .pie{
+    margin-top: 50px;
+    background-color: #EFEFEF;
+    text-align: center;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+/* boton del footer */
+.buttonpie {
+background: darkgray;
+margin-left: -5px;
+padding-left: 50px;
+padding-right: 50px;
+padding-top: -99px;
+padding-bottom: 10px;
+color: white;
+} 
+
+.buttonpie {
+background: darkgray;
+margin-left: -5px;
+}
+

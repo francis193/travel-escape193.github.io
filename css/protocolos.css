@@ -1,0 +1,42 @@
+*{
+    padding: 0px;
+    margin-left: 50px;
+    margin-right: 50px;
+}
+.contenedormenu{
+    background: rgb(72, 146, 136);
+}
+.texto{
+    font-size: 16px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+    footer .pie{
+        margin-top: 50px;
+        background-color: #EFEFEF;
+        text-align: center;
+        padding-top: 50px;
+        padding-bottom: 50px;
+    }
+    /* boton del footer */
+.buttonpie {
+    background: darkgray;
+    margin-left: -5px;
+    padding-left: 50px;
+    padding-right: 50px;
+    padding-top: -99px;
+    padding-bottom: 10px;
+    color: white;
+} 
+
+.buttonpie {
+    background: darkgray;
+    margin-left: -5px;
+}
+
+.salud{
+    margin-left: 650px;
+    margin-top: -520px;
+}
+.protocolosatos {
+    font-size: 10%;
+}
